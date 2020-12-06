@@ -5,7 +5,7 @@ Course : Computer Networks
 Organization : School of Engineering and Applied Science, Ahmedabad University, India.
 Project : SMTP(Simple Mail Transfer Protocol) Implementation in C using Socket Programming
 
-# How to run the client and server files
+## How to run client and server file:
 * First compile the server.c file and run using this format : ./server portnumber(any range except 0-1023)
 * Then compile the client.c file and run using this format : ./client 127.0.0.1 portnumber(same as written on server side)
 
@@ -18,10 +18,9 @@ Project : SMTP(Simple Mail Transfer Protocol) Implementation in C using Socket P
 5. ATTACHMENT - to send an image file as an attachment with email
 6. QUIT - to terminate the connection with server
 
+### NOTE : follow the order of commands as given above because this is protocol, you must have to follow the rules
 
 * When you will run the client code, you will be prompted "Enter the command:" statement in which you have to write this commands(necessary to use all capital letters only) appropriately to make conversation with server. 
-
-## NOTE : follow the order of commands as given above because this is protocol, you must have to follow the rules
 
 * For command number 2 to 5 you will be prompted another more statements to write the information like sender's emailid, recipient's emailid, subject of the email, content of the email etc. Write the information carefully to avoid ambiguity.
 
