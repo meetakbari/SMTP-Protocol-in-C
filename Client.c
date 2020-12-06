@@ -68,7 +68,7 @@ void send_image(int socket)
 		    status = write(socket, send_buffer, readsize);  
 	    }while(status<0);
 
-        printf("Packet number: %i\n",packet_index);
+            //printf("Packet number: %i\n",packet_index);
 	    //printf("Packet size sent: %i\n",readsize);     
 	    printf(" \n");
 	    printf(" \n");
@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
         
         char code[4];       //to store the 3 digit response code received from server
         
-        if(strcmp(cname,"HELO") == 0)
+        if(strcasecmp(cname,"HELO") == 0)
         {
             bzero(buff,10240);
             strcpy(buff,"HELO ");
@@ -202,7 +202,7 @@ int main(int argc, char *argv[])
             }
             fflush(stdin);
         }
-        else if(strcmp(cname,"MAIL FROM") == 0)
+        else if(strcasecmp(cname,"MAIL FROM") == 0)
         {
             bzero(buff,10240);
             printf("\nEnter Sender Email id : ");
@@ -240,7 +240,7 @@ int main(int argc, char *argv[])
             }
             fflush(stdin);
         }
-        else if(strcmp(cname,"RCPT TO") == 0)
+        else if(strcasecmp(cname,"RCPT TO") == 0)
         {
             bzero(buff,10240);
             printf("\nEnter Recipient Email id : ");
@@ -278,7 +278,7 @@ int main(int argc, char *argv[])
             }
             fflush(stdin);
         }
-        else if(strcmp(cname,"DATA") == 0)          
+        else if(strcasecmp(cname,"DATA") == 0)          
         {
             bzero(buff,10240);
             strcpy(buff,"DATA");
@@ -362,7 +362,7 @@ int main(int argc, char *argv[])
             }
             fflush(stdin);                                  
         }
-        else if(strcmp(cname,"ATTACHMENT") == 0){
+        else if(strcasecmp(cname,"ATTACHMENT") == 0){
             bzero(buff,10240);
 			strcpy(buff,"Attachment");
 			strcat(buff,"\r\n");
@@ -403,7 +403,7 @@ int main(int argc, char *argv[])
 			}
 			printf("SERVER : %s\n\n",buff);
         }
-        else if(strcmp(cname,"QUIT") == 0)
+        else if(strcasecmp(cname,"QUIT") == 0)
         {
             bzero(buff,10240);
             strcpy(buff,"QUIT");
