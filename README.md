@@ -1,9 +1,8 @@
 # Author Details
-Meet Akbari - meet.a1@ahduni.edu.in
-Mayankkumar Tank - mayankbhai.t@ahduni.edu.in
-Course : Computer Networks
-Organization : School of Engineering and Applied Science, Ahmedabad University, India.
-Project : SMTP(Simple Mail Transfer Protocol) Implementation in C using Socket Programming
+* **Meet Akbari** - meet.a1@ahduni.edu.in
+* **Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in
+* **Course** : Computer Networks
+* **Organization** : School of Engineering and Applied Science, Ahmedabad University, India.
 
 ## How to run client and server file:
 * First compile the server.c file and run using this format : ./server portnumber(any range except 0-1023)
