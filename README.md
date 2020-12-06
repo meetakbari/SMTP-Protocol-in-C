@@ -17,7 +17,7 @@
 5. ATTACHMENT - to send an image file as an attachment with email
 6. QUIT - to terminate the connection with server
 
-### NOTE : follow the order of commands as given above because this is protocol, you must have to follow the rules
+#### NOTE : must follow the order of commands as given above while executing the client code.
 
 * When you will run the client code, you will be prompted "Enter the command:" statement in which you have to write this commands(necessary to use all capital letters only) appropriately to make conversation with server. 
 
