@@ -23,7 +23,7 @@
 int receive_image(int socket)
 {
     int recvsize;
-    int size;
+    int size; 
     int readsize;
     int writesize;
     int packetindex; 
