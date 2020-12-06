@@ -1,6 +1,6 @@
 # Author Details
-* **Meet Akbari** - meet.a1@ahduni.edu.in
-* **Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in
+**Meet Akbari** - meet.a1@ahduni.edu.in
+**Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in
 * **Course** : Computer Networks
 * **Organization** : School of Engineering and Applied Science, Ahmedabad University, India.
 
