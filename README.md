@@ -9,7 +9,7 @@
 * Then compile the client.c file and run using this format : ./client 127.0.0.1 portnumber(same as written on server side)
 
 
-## To communicate with server there are several commands(here are 6 which we have implemented):
+## To communicate with server there are several commands(here are 6 which are implemented in this project):
 1. HELO - to start conversation for sending email 
 2. MAIL FROM - to send sender's email address
 3. RCPT TO - to send recipient's email address
