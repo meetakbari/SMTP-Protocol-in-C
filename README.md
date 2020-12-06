@@ -1,15 +1,16 @@
-Author : Meet Akbari (AU1841073)
-		     Mayankkumar Tank (AU1841057)
+# Author Details
+Meet Akbari - meet.a1@ahduni.edu.in
+Mayankkumar Tank - mayankbhai.t@ahduni.edu.in
 Course : Computer Networks
 Organization : School of Engineering and Applied Science, Ahmedabad University, India.
 Project : SMTP(Simple Mail Transfer Protocol) Implementation in C using Socket Programming
 
-
+# How to run the client and server files
 * First compile the server.c file and run using this format : ./server portnumber(any range except 0-1023)
 * Then compile the client.c file and run using this format : ./client 127.0.0.1 portnumber(same as written on server side)
 
 
-* To communicate with server there are several commands(here are 6 which we have implemented):
+## To communicate with server there are several commands(here are 6 which we have implemented):
 1. HELO - to start conversation for sending email 
 2. MAIL FROM - to send sender's email address
 3. RCPT TO - to send recipient's email address
@@ -20,7 +21,7 @@ Project : SMTP(Simple Mail Transfer Protocol) Implementation in C using Socket P
 
 * When you will run the client code, you will be prompted "Enter the command:" statement in which you have to write this commands(necessary to use all capital letters only) appropriately to make conversation with server. 
 
-(( NOTE : follow the order of commands as given above because this is protocol, you must have to follow the rules ))
+## NOTE : follow the order of commands as given above because this is protocol, you must have to follow the rules
 
 * For command number 2 to 5 you will be prompted another more statements to write the information like sender's emailid, recipient's emailid, subject of the email, content of the email etc. Write the information carefully to avoid ambiguity.
 
