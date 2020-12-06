@@ -1,7 +1,7 @@
 # Author Details
-**Meet Akbari** - meet.a1@ahduni.edu.in  
-**Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in
-* **Course** : Computer Networks
+* **Meet Akbari** - meet.a1@ahduni.edu.in  
+* **Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in
+* **Course** : Computer Networks | University 5th semester project
 * **Organization** : School of Engineering and Applied Science, Ahmedabad University, India.
 
 ## How to run client and server file:
