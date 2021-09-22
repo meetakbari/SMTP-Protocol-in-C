@@ -1,7 +1,7 @@
 # Author Details
 
-* **Meet Akbari** - meet.a1@ahduni.edu.in  
-* **Mayankkumar Tank** - mayankbhai.t@ahduni.edu.in 
+* **Meet Akbari**  
+* **Mayankkumar Tank**
 * **Course** : Computer Networks | University 5th semester project
 * **Organization** : School of Engineering and Applied Science, Ahmedabad University, India.
 
@@ -33,7 +33,7 @@
 * We have given you one image as a reference for testing, and at the server side image will be by default saved with "received.jpeg" name. So, we recommand you to use .jpeg format only to avoid ambiguity at both the side.
 
 
-I hope you will like our efforts to teach you how SMTP protocol command by command when any client wants to send the email to SMTP server.
+I hope you will like our efforts to teach you how SMTP protocol works command by command when any client wants to send the email to SMTP server.
 
 ~ Thank you! 
 
